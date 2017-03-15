@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|PT+Sans');
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'Baloo Bhaina', cursive;
+*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  overflow: hidden;
+}
+.contenedor{
+  position: absolute;
+  background-image: url(../img/bg/bgDesing.jpg);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 100%;
+}
+/*Cabecera*/
+.contenedor header{
+  width: 100%;
+  height: 10%;
+  background-color: rgba(22, 96, 62, 0.64);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenedor header .logo{
+  color: #ffffff;
+  padding-left: 10px;
+  font-family: 'Baloo Bhaina', cursive;
+}
+.contenedor header .Enlace{
+  padding-right:10px;
+}
+.contenedor header .Enlace button{
+  padding: 5px;
+  border: 0px;
+  color: #fff;
+  background-color: rgb(51, 66, 57);
+}
+.contenedor header .Enlace button:hover{
+  background-color: rgb(33, 43, 37);
+  font-weight: bold;
+  padding: 5px 3px;;
+}
+/*Cuerpo*/
+.contenedor section{
+  width: 100%;
+  height: 85%;
+  padding-bottom: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+.contenedor section .AreaGalery{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+.contenedor section .image{
+  background-color: rgba(0, 0, 0, 0.77);
+  width: 300px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.contenedor section .image img{
+  width: 90%;
+  height: 90%
+}
+
+.contenedor section .AreaPagina{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(164, 198, 189);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;
+
+}
+.contenedor section .AreaPagina .PaginacionNum{
+  height: 100%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 50px;
+}
+.contenedor section .AreaPagina .PaginacionNum a{
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: rgb(24, 105, 56);
+  font-size: 12px;
+}
+.contenedor section .AreaPagina .PaginacionNum a:hover{
+  color: rgb(18, 80, 43);
+  background-color: rgb(135, 163, 156);
+  padding: 6px 0px;
+  font-size: 14px;
+}
+
+/*Pie de pagina*/
+.contenedor footer{
+  background-color: #137555;
+  color: #ffffff;
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*El pop area*/
+
+.iniSecPop{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+}
+.iniSecPop .FormArea{
+  width: 40%;
+  height: 40%;
+  background-color: rgb(221, 221, 221);
+  padding: 5px;
+  border: 2px solid rgb(103, 103, 103);
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+.iniSecPop .FormArea form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.iniSecPop .FormArea form input[type="text"], input[type="password"]{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 0px;
+
+}
+.iniSecPop .FormArea form input[type="submit"]{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.iniSecPop .FormArea form button{
+  margin-bottom: 20px;
+}

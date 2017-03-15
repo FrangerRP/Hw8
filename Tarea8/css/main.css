@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Botones configuraciones*/
+
+.btn{
+	text-decoration: none;
+	background-color: #D7D6D6;
+	color: #ffffff;
+	border: 0px;
+	padding: 5px;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: #B9B9B9;
+}
+
+/*----------------------Colors*/
+
+.btn-green{background-color: #4FEC61; color: #ffffff;}
+.btn-green:hover{background-color: #40B74E; color: #ffffff;}
+
+.btn-red{background-color: #E14A4A; color: #ffffff;}
+.btn-red:hover{background-color: #A93333; color: #ffffff;}
+
+.btn-yellow{background-color: #D9EE23; color: #ffffff;}
+.btn-yellow:hover{background-color: #AFC01D; color: #ffffff;}
+
+.btn-cian{background-color: #28b560; color: #ffffff;}
+.btn-cian:hover{background-color: #1b8244; color: #ffffff;}
+
+/*.btn-green{background-color: #4FEC61; color: #ffffff;}
+.btn-green:hover{background-color: #40B74E; color: #ffffff;}*/

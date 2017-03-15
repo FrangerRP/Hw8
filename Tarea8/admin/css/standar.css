@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|PT+Sans');
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'Baloo Bhaina', cursive;
+*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.Contenedor{
+  background-color: red;
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  font-family: 'PT Sans', sans-serif;
+}
+.Contenedor .cabecera{
+  background-color: rgb(22, 120, 77);
+  color: #fff;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Contenedor .cabecera .logo{
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 2em;
+}
+.Contenedor .cabecera .Close{
+  margin-right: 10px;
+  background-color: rgb(23, 57, 41);
+}
+.Contenedor .cabecera .Close a{
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 5px;
+}
+.Contenedor .cabecera .Close:hover{
+  background-color: rgb(16, 40, 28);
+}
+.Contenedor .cuerpo{
+  background-color: rgba(134, 208, 176, 0.88);
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contenedor .piedpag{
+  background-color: rgb(15, 83, 53);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.Contenedor .piedpag #copy{
+  margin-left: 2%;
+}
+.Contenedor .piedpag #usuario{
+  margin-right: 2%;
+}
+
+/*Formularios*/
+
+.Contenedor .cuerpo .formulario{
+  width: 20%;
+  height: 80%;
+  background-color: rgb(223, 220, 185);
+  border: 2px solid rgb(50, 72, 74);
+}
+.Contenedor .cuerpo .formulario form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.Contenedor .cuerpo .formulario form img{
+  width: 70%;
+  border: 1px solid #000;
+}
+.Contenedor .cuerpo .formulario form input[type='text']{
+  width: 90%;
+  height: 30px;
+  text-align: center;
+}
+.Contenedor .cuerpo .formulario form textarea{
+  width: 90%;
+  height: 200px;
+  max-height: 150px;
+  padding: 5px;
+}
+.Contenedor .cuerpo .formulario form input[type='file']{
+  max-width: 90%;
+}
+
+/*Configuraciones personales para estas paginas*/
+
+.btn-red, .btn-cian{
+  margin-bottom: 5px;
+  width: 90%;
+  text-align: center;
+}
